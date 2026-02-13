@@ -17,27 +17,7 @@ export default function Home() {
                 Real-time Voice Intelligence for Healthcare
             </p>
 
-            {/* Scroll Down Indicator */}
-            <div className="absolute bottom-12">
-                <p className="text-white/50 text-sm uppercase tracking-widest mb-2">
-                    SCROLL DOWN
-                </p>
-                <div className="flex justify-center">
-                    <svg
-                        className="w-6 h-6 text-white/50 animate-bounce"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M19 9l-7 7-7-7"
-                        />
-                    </svg>
-                </div>
-            </div>
+
         </div>
     );
 }
