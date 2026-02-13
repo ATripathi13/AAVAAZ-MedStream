@@ -112,20 +112,20 @@ export default function SpeechTranscription() {
             </div>
 
             {/* Recording Controls */}
-            <div className="mb-12 space-x-4">
+            <div className="mb-12 space-x-6">
                 {!isRecording ? (
                     <button
                         onClick={startRecording}
-                        className="bg-green-500/30 hover:bg-green-500/50 text-white font-medium py-4 px-8 rounded-lg uppercase tracking-wider transition-all transform hover:scale-105 shadow-lg"
+                        className="border border-white/60 hover:bg-white/10 text-white font-light py-4 px-12 rounded-full uppercase tracking-[0.2em] transition-all transform hover:scale-105 backdrop-blur-sm"
                     >
-                        ● START RECORDING
+                        Start Recording
                     </button>
                 ) : (
                     <button
                         onClick={stopRecording}
-                        className="bg-red-500/30 hover:bg-red-500/50 text-white font-medium py-4 px-8 rounded-lg uppercase tracking-wider transition-all transform hover:scale-105 shadow-lg animate-pulse"
+                        className="border border-red-400/60 hover:bg-red-500/10 text-red-200 font-light py-4 px-12 rounded-full uppercase tracking-[0.2em] transition-all transform hover:scale-105 backdrop-blur-sm animate-pulse"
                     >
-                        ■ STOP RECORDING
+                        Stop Recording
                     </button>
                 )}
             </div>

@@ -2,18 +2,19 @@ export default function Home() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen px-6 text-center fade-in">
             {/* Main Title */}
-            <h1 className="text-6xl md:text-8xl font-light text-white tracking-wider mb-6 heading-font">
+            {/* Main Title */}
+            <h1 className="text-7xl md:text-9xl font-thin text-white tracking-[0.2em] mb-4 heading-font drop-shadow-2xl">
                 AAVAAZ
             </h1>
 
             {/* Subtitle */}
-            <h2 className="text-4xl md:text-5xl font-light text-white/90 tracking-wider mb-8 heading-font">
-                INTEGRATED WEALTHCARE
+            <h2 className="text-4xl md:text-6xl font-thin text-white/90 tracking-[0.15em] mb-12 heading-font drop-shadow-xl">
+                MEDSTREAM
             </h2>
 
             {/* Description */}
-            <p className="text-white/70 text-lg max-w-md mb-12">
-                Collaborative Wealth Management for the Medical Community
+            <p className="text-white/70 text-lg uppercase tracking-widest max-w-2xl font-light border-t border-white/20 pt-8 mx-auto" style={{ letterSpacing: '0.2em' }}>
+                Real-time Voice Intelligence for Healthcare
             </p>
 
             {/* Scroll Down Indicator */}

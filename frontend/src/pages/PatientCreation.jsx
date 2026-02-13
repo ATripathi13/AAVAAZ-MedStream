@@ -100,7 +100,7 @@ export default function PatientCreation() {
                                 value={formData.name}
                                 onChange={handleChange}
                                 required
-                                className="w-full bg-white/10 border border-white/30 rounded px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-white/60 transition-colors"
+                                className="w-full bg-transparent border-b border-white/30 text-white placeholder-white/30 focus:outline-none focus:border-white/80 transition-colors py-2"
                                 placeholder="Please fill in this field"
                             />
                         </div>
@@ -116,7 +116,7 @@ export default function PatientCreation() {
                                 value={formData.dateOfBirth}
                                 onChange={handleChange}
                                 required
-                                className="w-full bg-white/10 border border-white/30 rounded px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-white/60 transition-colors"
+                                className="w-full bg-transparent border-b border-white/30 text-white placeholder-white/30 focus:outline-none focus:border-white/80 transition-colors py-2"
                             />
                         </div>
 
@@ -131,7 +131,7 @@ export default function PatientCreation() {
                                 value={formData.phone}
                                 onChange={handleChange}
                                 required
-                                className="w-full bg-white/10 border border-white/30 rounded px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-white/60 transition-colors"
+                                className="w-full bg-transparent border-b border-white/30 text-white placeholder-white/30 focus:outline-none focus:border-white/80 transition-colors py-2"
                                 placeholder="Please fill in this field"
                             />
                         </div>
@@ -147,7 +147,7 @@ export default function PatientCreation() {
                                 value={formData.address}
                                 onChange={handleChange}
                                 required
-                                className="w-full bg-white/10 border border-white/30 rounded px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-white/60 transition-colors"
+                                className="w-full bg-transparent border-b border-white/30 text-white placeholder-white/30 focus:outline-none focus:border-white/80 transition-colors py-2"
                                 placeholder="Please fill in this field"
                             />
                         </div>

@@ -10,9 +10,10 @@ export default function Layout({ children }) {
             <header className="fixed top-0 left-0 right-0 z-40 flex justify-between items-center p-6">
                 {/* Logo */}
                 <div className="flex items-center">
-                    <div className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
-                        <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 14a6 6 0 110-12 6 6 0 010 12zm-1-9h2v4h-2V7zm0 5h2v2h-2v-2z" />
+                    <div className="w-16 h-16 flex items-center justify-center">
+                        <svg className="w-12 h-12 text-white opacity-90 drop-shadow-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm0 0V3m0 18a9 9 0 0 1 9-9h-9a9 9 0 0 0-9 9h9zm0-18a9 9 0 0 0 9 9h-9a9 9 0 0 1-9-9h9z" />
+                            <circle cx="12" cy="12" r="2" strokeWidth={1} fill="white" fillOpacity="0.2" />
                         </svg>
                     </div>
                 </div>
