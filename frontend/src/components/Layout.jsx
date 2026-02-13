@@ -51,21 +51,21 @@ export default function Layout({ children }) {
                             <Link
                                 to="/"
                                 onClick={() => setMenuOpen(false)}
-                                className="text-white text-3xl font-light tracking-wide hover:text-white/80 transition-colors heading-font text-right"
+                                className="text-white text-3xl font-light tracking-wide transition-colors heading-font text-right hover-underline-animation"
                             >
                                 HOME
                             </Link>
                             <Link
                                 to="/patient-creation"
                                 onClick={() => setMenuOpen(false)}
-                                className="text-white text-3xl font-light tracking-wide hover:text-white/80 transition-colors heading-font text-right"
+                                className="text-white text-3xl font-light tracking-wide transition-colors heading-font text-right hover-underline-animation"
                             >
                                 PATIENT CREATION
                             </Link>
                             <Link
                                 to="/speech-transcription"
                                 onClick={() => setMenuOpen(false)}
-                                className="text-white text-3xl font-light tracking-wide hover:text-white/80 transition-colors heading-font text-right"
+                                className="text-white text-3xl font-light tracking-wide transition-colors heading-font text-right hover-underline-animation"
                             >
                                 SPEECH TRANSCRIPTION
                             </Link>
