@@ -249,4 +249,5 @@ Built as a healthcare workflow prototype demonstrating real-time audio processin
 ---
 
 
-**Note**: This is a prototype system. For production use, implement proper authentication, data encryption, HIPAA compliance, and use production-grade ASR services.
+**Note**: This is a prototype system. For production use, implement proper authentication, data encryption, HIPAA compliance, and use production-grade ASR services. I need colaborators soon
+
